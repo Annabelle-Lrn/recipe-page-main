@@ -12,30 +12,34 @@ $young : "young";
 *{
   padding: 0;
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
   background: whitesmoke;
   border-radius: 20px;
  
   body{
     background: rgb(246, 211, 186);
-    padding: 200px 580px;
+    padding: 25% 30%;
     color: gray;
     @media screen and (max-width:480px) {
       padding: 0;
       
     }
+
   }
   strong{
     color:black;
+    background: rgba(245, 245, 245, 0);
   }
   section{
    
     padding: 40px;
     margin: 20px 0;
+    background: rgba(245, 245, 245, 0);
     &.preparation-time{
       h3{
         color:purple;
         font-family: $outfit;
+        background: rgba(245, 245, 245, 0);
       }
       margin: 0 35px;
       @media screen and (max-width:480px) {
@@ -48,19 +52,23 @@ $young : "young";
       color: rgb(152, 3, 3);
       font-family: $young;
       font-weight: 400;
+      background: rgba(245, 245, 245, 0);
     }
     ul{
       padding-left: 15px;
+      background: rgba(245, 245, 245, 0);
       li{
         margin: 10px 0;
         line-height: 25px;
         font-family: $outfit;
         color:brown;
         font-weight: 600;
+        background: rgba(245, 245, 245, 0);
           p{
             color: gray;
             display: inline;
             font-weight: 300;
+            background: rgba(245, 245, 245, 0);
           }
     
       }

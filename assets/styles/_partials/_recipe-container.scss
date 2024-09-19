@@ -15,10 +15,12 @@
     font-family: $young;   
     font-weight: 400;
     color: black;
+    background: rgba(245, 245, 245, 0);
   }
   p{
     margin-top: 20px;
     text-align: justify;
+    background: rgba(245, 245, 245, 0);
     @media screen and (max-width:480px) {
       text-align: start;
       font-size: 0.9rem;
@@ -30,16 +32,19 @@
     flex-direction: column;
     font-family: $outfit;
     font-size: 0.9rem;
+    background: rgba(245, 245, 245, 0);
     .table{
       margin: 0;
       display: grid;
       grid-template-columns: 50% 50%;
+      background: rgba(245, 245, 245, 0);
       // grid-template-areas: ;
       p{
         border-bottom: 2px solid rgba(220, 217, 217, 0.541);
         border-radius: 0;
         padding-bottom: 2px;
         padding-left: 10px;
+        background: rgba(245, 245, 245, 0);
         &.brown{
           color:brown;
           font-weight: 600;
