@@ -16,4 +16,26 @@
     margin-top: 20px;
     text-align: justify;
   }
+
+  .nutrition{
+    display: flex;
+    flex-direction: column;
+    .table{
+      margin: 0;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      // grid-template-areas: ;
+      p{
+        border-bottom: 1px solid rgba(220, 217, 217, 0.541);
+        border-radius: 0;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        .brown{
+          color:brown;
+          font-size: 1.8rem;
+        }
+      }
+    
+    }
+  }
 }
