@@ -17,13 +17,28 @@ $young : "young";
   border-radius: 20px;
  
   body{
-    background: rgb(252, 187, 140);
-    padding: 200px 350px;
+    background: rgb(246, 211, 186);
+    padding: 200px 580px;
   }
  
   section{
    
-    padding: 60px;
-    margin: 50px 0;
+    padding: 40px;
+    margin: 20px 0;
+
+    h2{
+      margin: 10px 0;
+      color: rgb(152, 3, 3);
+      font-family: $young;
+      font-weight: 400;
+    }
+    ul{
+      padding-left: 15px;
+      li{
+        margin: 10px 0;
+        line-height: 25px;
+        font-family: $outfit;
+      }
+    }
   }
 }

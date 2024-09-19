@@ -14,12 +14,26 @@
   border-radius: 20px;
 }
 * body {
-  background: rgb(252, 187, 140);
-  padding: 200px 350px;
+  background: rgb(246, 211, 186);
+  padding: 200px 580px;
 }
 * section {
-  padding: 60px;
-  margin: 50px 0;
+  padding: 40px;
+  margin: 20px 0;
+}
+* section h2 {
+  margin: 10px 0;
+  color: rgb(152, 3, 3);
+  font-family: "young";
+  font-weight: 400;
+}
+* section ul {
+  padding-left: 15px;
+}
+* section ul li {
+  margin: 10px 0;
+  line-height: 25px;
+  font-family: "outfit";
 }
 
 .recipe-container {
@@ -35,4 +49,8 @@
   font-style: 2.5rem;
   font-family: "young";
   font-weight: 400;
+}
+.recipe-container p {
+  margin-top: 20px;
+  text-align: justify;
 }/*# sourceMappingURL=index.css.map */
