@@ -20,6 +20,10 @@ $young : "young";
     background: rgb(246, 211, 186);
     padding: 200px 580px;
     color: gray;
+    @media screen and (max-width:480px) {
+      padding: 0;
+      
+    }
   }
   strong{
     color:black;
@@ -28,7 +32,17 @@ $young : "young";
    
     padding: 40px;
     margin: 20px 0;
-
+    &.preparation-time{
+      h3{
+        color:purple;
+        font-family: $outfit;
+      }
+      margin: 0 35px;
+      @media screen and (max-width:480px) {
+        margin: 0 10px;
+      
+      }
+    }
     h2{
       margin: 10px 0;
       color: rgb(152, 3, 3);
@@ -41,7 +55,20 @@ $young : "young";
         margin: 10px 0;
         line-height: 25px;
         font-family: $outfit;
+        color:brown;
+        font-weight: 600;
+          p{
+            color: gray;
+            display: inline;
+            font-weight: 300;
+          }
+    
       }
     }
+    @media screen and (max-width:480px) {
+      margin: 0 ;
+      padding: 20px;
+    }
+  
   }
 }
