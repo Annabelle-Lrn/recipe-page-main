@@ -11,6 +11,7 @@
     font-style: 2.5rem; 
     font-family: $young;   
     font-weight: 400;
+    color: black;
   }
   p{
     margin-top: 20px;
@@ -20,19 +21,21 @@
   .nutrition{
     display: flex;
     flex-direction: column;
+    font-family: $outfit;
+    font-size: 0.9rem;
     .table{
       margin: 0;
       display: grid;
       grid-template-columns: 50% 50%;
       // grid-template-areas: ;
       p{
-        border-bottom: 1px solid rgba(220, 217, 217, 0.541);
+        border-bottom: 2px solid rgba(220, 217, 217, 0.541);
         border-radius: 0;
         padding-bottom: 2px;
         padding-left: 10px;
-        .brown{
+        &.brown{
           color:brown;
-          font-size: 1.8rem;
+          font-weight: 600;
         }
       }
     
